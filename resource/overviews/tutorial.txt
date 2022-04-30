@@ -1,0 +1,8 @@
+tutorial
+{
+	material materials/overviews/tutorial.vmat
+	pos_x -8065
+	pos_y 8199
+	scale 16.000
+}
+

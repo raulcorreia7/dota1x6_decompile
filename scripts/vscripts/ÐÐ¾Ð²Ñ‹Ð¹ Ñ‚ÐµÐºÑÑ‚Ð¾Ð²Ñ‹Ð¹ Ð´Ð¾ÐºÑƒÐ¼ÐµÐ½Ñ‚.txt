@@ -1,0 +1,314 @@
+
+
+
+
+
+	"item_recipe_meteor_hammer_custom"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"													// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"FightRecapLevel"				"1"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"250"	
+		"ItemShopTags"					""
+		"AbilityTextureName"			"item_recipe_meteor_hammer"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_meteor_hammer_custom"
+		"ItemRequirements"
+		{
+			"01"						"item_pers;item_crown"
+		}
+	}
+	
+	//=================================================================================================================
+	// Meteor Hammer
+	//=================================================================================================================
+	"item_meteor_hammer_custom"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+	    "BaseClass"						"item_lua"		
+		"ScriptFile"					"abilities/items/item_meteor_hammer_custom"			                    													// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_AOE"
+		"FightRecapLevel"				"1"
+        "AbilityTextureName"            "item_meteor_hammer"
+        "ItemIsNeutralDrop"				"0"
+		
+		// Stats	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"50.0"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemShopTags"					""
+		"ItemPurchasable"				"1"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"0"
+		"AbilitySharedCooldown"			"meteor_hammer"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS"
+		"IsTempestDoubleClonable"		"0"
+
+			//-------------------------------------------------------------------------------------------------------------
+		"AbilityChannelTime"			"2.5"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"400"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage"				"10"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"burn_duration"				"6.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"burn_interval"				"1.0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"land_time"				"0.5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"impact_radius"				"250"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"stats"					"8"
+			}
+			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"health_regen"					"6.5"
+			}
+
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana_regen"					"2.5"
+			}
+			
+	
+			"9"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage_units_init"				"150"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage_units_inc"				"90"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"stun"					"1.5"
+			}
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	"item_roshan_meteor"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+	    "BaseClass"						"item_lua"		
+		"ScriptFile"					"abilities/items/item_roshan_meteor"			                    													// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_AOE"
+		"FightRecapLevel"				"1"
+        "AbilityTextureName"            "item_roshan_meteor"
+        "ItemIsNeutralDrop"				"0"
+		
+		// Stats	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"50.0"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemShopTags"					""
+		"ItemPurchasable"				"1"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"0"
+		"AbilitySharedCooldown"			"meteor_hammer"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS"
+		"IsTempestDoubleClonable"		"0"
+
+			//-------------------------------------------------------------------------------------------------------------
+		"AbilityChannelTime"			"2.5"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"400"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage"				"20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"burn_duration"				"6.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"burn_interval"				"1.0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"land_time"				"0.5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"impact_radius"				"250"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"stats"					"8"
+			}
+			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"health_regen"					"6.5"
+			}
+
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana_regen"					"2.5"
+			}
+			
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"building_damage"		"15"
+			}	
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage_units_init"				"250"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage_units_inc"				"120"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"stun"					"1.5"
+			}
+
+		}
+
+	}
+
+
+"item_recipe_roshan_meteor"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_datadriven"													// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"FightRecapLevel"				"1"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1000"	
+		"ItemShopTags"					""
+		"AbilityTextureName"			"item_recipe_meteor_hammer"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_roshan_meteor"
+		"ItemRequirements"
+		{
+			"01"						"item_meteor_hammer_custom"
+		}
+	}
+
+
+
+
+
+
+
+
+
+local target = self:GetCursorTarget()
+target = self:GetCaster()
+
+
+local j = 0
+local ability = {}
+
+for i = 0,target:GetAbilityCount()-1 do
+
+    local a = target:GetAbilityByIndex(i)
+    
+    if not a or a:GetName() == "ability_capture" or a:GetName() == "custom_ability_smoke" then break end
+
+
+    if a:GetLevel() > 0 and not a:IsHidden() and not a:IsPassive() then
+    	local n = #ability + 1
+    	ability[n] = a
+    end
+end
+
+if #ability == 0 then return end
+
+local max = 0
+local name = ''
+
+for _,spell in pairs(ability) do 
+	if spell:GetManaCost(spell:GetLevel()) >= max then 
+		max = spell:GetManaCost(spell:GetLevel())
+		name = spell:GetName()
+	end
+end
+
+
+local hero_ability = target:FindAbilityByName(name)
+
+if hero_ability then 
+	local cd = hero_ability:GetCooldownTimeRemaining()
+	hero_ability:EndCooldown()
+	hero_ability:StartCooldown(cd + 6)
+end

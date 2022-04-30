@@ -1,0 +1,33 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	maps = 
+	[
+		"1x6",
+	]
+	IsPlayable = 1
+	PenaltiesEnabled = false
+	map_options = 
+	[
+		{
+			MaxPlayers = 6
+			map = "1x6"
+		},
+	]
+	HideInTools = false
+	IsTemplate = false
+	CheckAFKPlayers = false
+	DefaultMap = "1x6"
+	DisableIK = false
+	EnablePickRules = false
+	EventGame = false
+	hero_picker = 
+	{
+	}
+	HeroGuidesSupported = true
+	ForceDefaultGuide = true
+	MinimalPrecache = true
+	MinPlayers = 1
+	MaxPlayers = 6
+	TeamCount = -1
+	Default_Keys = null
+}

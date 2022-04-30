@@ -1,0 +1,632 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+
+
+"npc_dota_hero_wisp"
+	{
+		"IdleSoundLoop"		""
+		"GameSoundsFile"		""
+		"VoiceFile"		""
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+"npc_dota_hero_juggernaut"
+	{
+		
+		"Ability1"		"custom_juggernaut_blade_fury"
+		"Ability2"		"custom_juggernaut_healing_ward"
+		"Ability3"		"custom_juggernaut_blade_dance"
+		"Ability4"		"custom_juggernaut_swift_slash"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"custom_juggernaut_omnislash"
+		"Ability7"		""
+		"Ability8"		""
+		"Ability9"		""
+		"Ability18"		""
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		
+		"Ability26"				"custom_ability_smoke"
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+	}
+
+
+	"npc_dota_hero_phantom_assassin"
+	{
+		
+		"Ability1"		"custom_phantom_assassin_stifling_dagger"
+		"Ability2"		"custom_phantom_assassin_phantom_strike"
+		"Ability3"		"custom_phantom_assassin_blur"
+		"Ability4"		"custom_phantom_assassin_fan_of_knives"
+		"Ability5"		"custom_phantom_assassin_phantom_strike_legendary"
+		"Ability6"		"custom_phantom_assassin_coup_de_grace"
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		"Ability26"				"custom_ability_smoke"
+		
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		
+	}
+
+	"npc_dota_hero_huskar"
+	{
+		
+		"Ability1"		"custom_huskar_inner_fire"
+		"Ability2"		"custom_huskar_burning_spear"
+		"Ability3"		"custom_huskar_berserkers_blood"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"custom_huskar_life_break"
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		"Ability26"				"custom_ability_smoke"
+		
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+	}
+
+
+
+"npc_dota_hero_nevermore"
+	{
+
+		"Ability1"		"custom_nevermore_shadowraze_close"
+		"Ability2"		"custom_nevermore_shadowraze_medium"
+		"Ability3"		"custom_nevermore_shadowraze_far"
+		"Ability4"		"custom_nevermore_necromastery"
+		"Ability5"		"custom_nevermore_dark_lord"
+		"Ability6"		"custom_nevermore_requiem"
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		"Ability26"				"custom_ability_smoke"
+		
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+	} 
+
+
+"npc_dota_hero_legion_commander"
+	{
+		
+		"Ability1"		"custom_legion_commander_overwhelming_odds"
+		"Ability2"		"custom_legion_commander_press_the_attack"
+		"Ability3"		"custom_legion_commander_moment_of_courage"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"custom_legion_commander_duel"
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		"Ability26"				"custom_ability_smoke"
+		
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+
+
+	}
+
+"npc_dota_hero_queenofpain"
+	{
+		
+		"Ability1"		"custom_queenofpain_shadow_strike"
+		"Ability2"		"custom_queenofpain_blink"
+		"Ability3"		"custom_queenofpain_scream_of_pain"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"custom_queenofpain_sonic_wave"
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		"Ability26"				"custom_ability_smoke"
+		
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+
+
+
+
+}
+
+"npc_dota_hero_terrorblade"
+	{
+		
+		"Ability1"		"custom_terrorblade_reflection"
+		"Ability2"		"custom_terrorblade_conjure_image"
+		"Ability3"		"custom_terrorblade_metamorphosis"
+		"Ability4"		"terrorblade_demon_zeal"
+		"Ability5"		"custom_terrorblade_terror_wave"
+		"Ability6"		"custom_terrorblade_sunder"
+		"Ability7"		"custom_terrorblade_reflection_2"
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		
+		"Ability26"				"custom_ability_smoke"
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+
+
+
+}
+
+
+"npc_dota_hero_bristleback"
+{
+		"Ability1"		"bristleback_viscous_nasal_goo_custom"
+		"Ability2"		"bristleback_quill_spray_custom"
+		"Ability3"		"bristleback_bristleback_custom"
+		"Ability4"		"bristleback_hairball_custom"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"bristleback_warpath_custom"
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		
+		"Ability26"				"custom_ability_smoke"
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+}
+
+
+
+
+
+"npc_dota_hero_puck"
+
+{
+		"Ability1"		"custom_puck_illusory_orb"
+		"Ability2"		"custom_puck_waning_rift"
+		"Ability3"		"custom_puck_phase_shift"
+		"Ability4"		"custom_puck_ethereal_jaunt"
+		"Ability5"		"custom_puck_illusory_barrier"
+		"Ability6"		"custom_puck_dream_coil"
+		"Ability7"		"custom_puck_illusory_orb_2"
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		"Ability26"				"custom_ability_smoke"
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+
+}
+
+
+
+
+
+"npc_dota_hero_void_spirit"
+
+{
+		"Ability1"		"void_spirit_aether_remnant_custom"
+		"Ability2"		"void_spirit_dissimilate_custom"
+		"Ability3"		"void_spirit_resonant_pulse_custom"
+		"Ability4"		"void_spirit_astral_replicant"
+		"Ability5"		"void_spirit_dissimilate_custom_cancel"
+		"Ability6"		"void_spirit_astral_step_custom"
+		"Ability7"		"void_spirit_resonant_pulse_2_custom"
+		"Ability10"		"void_spirit_astral_step_custom_1"
+		"Ability11"		"void_spirit_astral_step_custom_2"
+		"Ability12"		"void_spirit_astral_step_custom_3"
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		"Ability26"				"custom_ability_smoke"
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+
+}
+
+
+"npc_dota_hero_ember_spirit"
+	{
+		
+		"Ability1"		"ember_spirit_searing_chains_custom"
+		"Ability2"		"ember_spirit_sleight_of_fist_custom"
+		"Ability3"		"ember_spirit_flame_guard_custom"
+		"Ability4"		"ember_spirit_activate_fire_remnant_custom"
+		"Ability5"		"ember_spirit_fire_remnant_burst"
+		"Ability6"		"ember_spirit_fire_remnant_custom"
+		"Ability7"		"ember_spirit_fire_remnant_custom_ult_scepter"
+		"Ability10"		"ember_spirit_fire_remnant_custom_1"
+		"Ability11"		"ember_spirit_fire_remnant_custom_2"
+		"Ability12"		"ember_spirit_fire_remnant_custom_3"
+		"Ability13"		"ember_spirit_fire_remnant_custom_ult_scepter_1"
+		"Ability14"		"ember_spirit_fire_remnant_custom_ult_scepter_2"
+		"Ability15"		"ember_spirit_fire_remnant_custom_ult_scepter_3"
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		"Ability26"				"custom_ability_smoke"
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+
+
+
+}
+
+
+"npc_dota_hero_pudge"
+
+{
+		"Ability1"      "custom_pudge_meat_hook"
+        "Ability2"      "custom_pudge_rot"
+        "Ability3"      "custom_pudge_flesh_heap"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"      "custom_pudge_dismember"
+		"Ability7"		""
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		"Ability26"				"custom_ability_smoke"
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+
+}
+
+
+
+
+
+"npc_dota_hero_hoodwink"
+	{
+		"Ability1"					"hoodwink_acorn_shot_custom"
+		"Ability2"					"hoodwink_bushwhack_custom"
+		"Ability3"					"hoodwink_scurry_custom"
+		"Ability4"					"hoodwink_decoy_custom"
+		"Ability5"					"hoodwink_hunters_boomerang"
+		"Ability6"					"hoodwink_sharpshooter_custom"
+		"Ability7"					"hoodwink_sharpshooter_release_custom"
+		"Ability8"					"hoodwink_acorn_shot_custom_2"
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability25"		""
+		"Ability26"				"custom_ability_smoke"
+        "Ability27"        "custom_ability_observer"
+        "Ability28"        "custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+	}
+
+
+
+
+	"npc_dota_hero_skeleton_king"
+{
+	"Ability1"		"skeleton_king_hellfire_blast_custom"
+	"Ability2"		"skeleton_king_vampiric_aura_custom"
+	"Ability3"		"skeleton_king_mortal_strike_custom"
+	"Ability4"		"generic_hidden"
+	"Ability5"		"generic_hidden"
+	"Ability6"		"skeleton_king_reincarnation_custom"
+	"Ability10"		""
+	"Ability11"		""
+	"Ability12"		""
+	"Ability13"		""
+	"Ability14"		""
+	"Ability15"		""
+	"Ability16"		""
+	"Ability17"		""
+	"Ability25"		""
+	"Ability26"				"custom_ability_smoke"
+    "Ability27"        "custom_ability_observer"
+    "Ability28"        "custom_ability_sentry"
+	"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+}
+
+
+
+"npc_dota_hero_lina"
+{
+		
+		"Ability1"				"lina_dragon_slave_custom"
+		"Ability2"				"lina_light_strike_array_custom"
+		"Ability3"				"lina_fiery_soul_custom"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"lina_laguna_blade_custom"
+		"Ability7"				""
+		"Ability8"				""
+		"Ability9"				""
+		"Ability18"				""
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability25"				""
+		"Ability26"				"custom_ability_smoke"
+		"Ability27"				"custom_ability_observer"
+		"Ability28"				"custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+}
+
+
+
+
+		"npc_dota_hero_troll_warlord"
+	{
+		
+		"Ability1"				"troll_warlord_berserkers_rage_custom"
+		"Ability2"				"troll_warlord_whirling_axes_ranged_custom"
+		"Ability3"				"troll_warlord_whirling_axes_melee_custom"
+		"Ability4"				"troll_warlord_fervor_custom"
+		"Ability5"				"troll_warlord_rampage"
+		"Ability6"				"troll_warlord_battle_trance_custom"
+		"Ability7"				""
+		"Ability8"				""
+		"Ability9"				""
+		"Ability18"				""
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability25"				""
+		"Ability26"				"custom_ability_smoke"
+		"Ability27"				"custom_ability_observer"
+		"Ability28"				"custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+	}
+
+
+	"npc_dota_hero_axe"
+	{
+		"Ability1"				"axe_berserkers_call_custom"
+		"Ability2"				"axe_battle_hunger_custom"
+		"Ability3"				"axe_counter_helix_custom"
+		"Ability4"				"axe_culling_blade_custom_legendary"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"axe_culling_blade_custom"
+		"Ability7"				""
+		"Ability8"				""
+		"Ability9"				""
+		"Ability18"				""
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability25"				""
+		"Ability26"				"custom_ability_smoke"
+		"Ability27"				"custom_ability_observer"
+		"Ability28"				"custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+	}
+
+
+
+	"npc_dota_hero_alchemist"
+	{
+		"Ability1"				"alchemist_acid_spray_custom"
+		"Ability2"				"alchemist_unstable_concoction_custom"
+		"Ability3"				"alchemist_goblins_greed_custom"
+		"Ability4"				"alchemist_berserk_potion"
+		"Ability5"				"alchemist_acid_spray_mixing"
+		"Ability6"				"alchemist_chemical_rage_custom"
+		"Ability7"				"alchemist_unstable_concoction_throw_custom"
+		"Ability8"				"alchemist_acid_spray_red_custom"
+		"Ability9"				"alchemist_acid_spray_purple_custom"
+		"Ability18"				"alchemist_enrage_potion"
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability25"				""
+		"Ability26"				"custom_ability_smoke"
+		"Ability27"				"custom_ability_observer"
+		"Ability28"				"custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+	}
+
+
+
+
+
+
+
+	"npc_dota_hero_ogre_magi"
+	{
+		"Ability1"				"ogre_magi_fireblast_custom"
+		"Ability2"				"ogre_magi_ignite_custom"
+		"Ability3"				"ogre_magi_bloodlust_custom"
+		"Ability4"				"ogre_magi_unrefined_fireblast_custom"
+		"Ability5"				"ogre_magi_smash_custom"
+		"Ability6"				"ogre_magi_multicast_custom"
+		"Ability7"				""
+		"Ability8"				""
+		"Ability9"				""
+		"Ability18"				""
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability25"				""
+		"Ability26"				"custom_ability_smoke"
+		"Ability27"				"custom_ability_observer"
+		"Ability28"				"custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+	}
+
+
+
+
+
+	"npc_dota_hero_antimage"
+	{
+		"Ability1"				"antimage_mana_break_custom"
+		"Ability2"				"antimage_blink_custom"
+		"Ability3"				"antimage_counterspell_custom"
+		"Ability4"				"antimage_mana_overload_custom"
+		"Ability5"				"antimage_spell_seal_custom"
+		"Ability6"				"antimage_mana_void_custom"
+		"Ability7"				""
+		"Ability8"				""
+		"Ability9"				""
+		"Ability18"				""
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability25"				""
+		"Ability26"				"custom_ability_smoke"
+		"Ability27"				"custom_ability_observer"
+		"Ability28"				"custom_ability_sentry"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+	}
+
+
+
+
+	"npc_dota_hero_primal_beast"
+	{
+		"Ability1"				"primal_beast_onslaught_custom"
+		"Ability2"				"primal_beast_trample_custom"
+		"Ability3"				"primal_beast_uproar_custom"
+		"Ability4"				"primal_beast_rock_throw"
+		"Ability5"				"primal_beast_onslaught_release_custom"
+		"Ability6"				"primal_beast_pulverize_custom"
+		"Ability7"				""
+		"Ability8"				""
+		"Ability9"				""
+		"Ability18"				""
+		"Ability10"				""
+		"Ability11"				""
+		"Ability12"				""
+		"Ability13"				""
+		"Ability14"				""
+		"Ability15"				""
+		"Ability16"				""
+		"Ability17"				""
+		"Ability25"				""
+		"Ability27"				"custom_ability_observer"
+		"Ability28"				"custom_ability_sentry"
+		"Ability29"				"custom_ability_smoke"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+	}
+
+
+
+}
