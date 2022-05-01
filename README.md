@@ -93,8 +93,8 @@ As of 29/04/2022, the game disappeared from the workshop. This is the decompilat
 <!-- LICENSE -->
 ## License
 
-I'm distributing the project under GPL2 license, with copyrights under the name ```Xeno```.
-See `LICENSE` for more information.
+I'm distributing the project under GPL3 license, with copyrights under the name ```Xeno```.
+See `LICENSE.txt` for more information.
 
 Disclaimer : This repository might disappear if ```Xeno``` asks me to.
 
